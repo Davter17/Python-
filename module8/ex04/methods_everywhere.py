@@ -7,7 +7,7 @@ def  shrink(str2) :
 def enlarge(str2) :
     leng = len(str2)
     while (leng < 8) :
-        str2 = str2+"z"
+        str2 = str2+"Z"
         leng = len(str2)
     return (str2)
 

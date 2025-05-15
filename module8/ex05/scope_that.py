@@ -2,8 +2,9 @@
 
 def add_one(param) :
     param = param + 1
-    return param
+    #return (param)
 
-var = True
-var = add_one(var)
+var = 2
+#var = add_one(var)
+add_one(var)
 print(var)

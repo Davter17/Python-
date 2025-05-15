@@ -13,6 +13,7 @@ else :
             array = list(range(num1, num2 - 1, -1))
         else :
             array = list(range(num1, num2 + 1))
+            
         print(array)
     except:
         print("Error")
