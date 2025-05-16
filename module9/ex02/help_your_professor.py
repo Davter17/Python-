@@ -7,7 +7,6 @@ def average(library) :
         acum += int(values)
         count += 1
     return (acum/count)
-    
 
 class_3B = {
     "marine": 18,
@@ -21,5 +20,6 @@ class_3C = {
     "marc": 8,
     "stephanie": 13
 }
+
 print(f"Average for class 3B: {average(class_3B)}.")
 print(f"Average for class 3C: {average(class_3C)}.")

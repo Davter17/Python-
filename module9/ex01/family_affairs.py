@@ -4,7 +4,6 @@
 #    redheads = list(filter(lambda k: library[k] == "red", library.keys()))
 #    return str(redheads)
 
-
 def find_the_redheads(library) :
     first = True
     str1 = "["
